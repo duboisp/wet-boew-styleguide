@@ -2,6 +2,11 @@
 <main property="mainContentOfPage" class="container">
 <h1 id="wb-cont" property="name">{{ page.title }}</h1>
 {% include content-buttons-fr.html %}
+{% if page.url contains 'accessibility' %}
+<div class="alert alert-info" lang="en">
+<p>Need to be translated</p>
+</div>
+{% endif %}
 
 {{ content }}
 
@@ -13,4 +18,4 @@
 </dl>
 {% endif %}
 </main>
-{% include footer-theme-wet-boew-fr.html %}  
+{% include footer-theme-wet-boew-fr.html %}
