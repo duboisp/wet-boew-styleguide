@@ -4,6 +4,7 @@ layout: default-theme-wet-boew-fr
 title: Description of Graphic - Organizational Chart
 hide_breadcrumb: false
 modified: 2019-04-11
+lang: en
 ---
 {::nomarkdown}
 {% raw %}
